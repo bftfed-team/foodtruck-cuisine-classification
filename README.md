@@ -27,7 +27,7 @@ This dataset is a **standardized reference** for the classification of cuisine t
 | `date_updated` | Date of the last update |
 | `notes` | Notes or context (optional) |
 
-*Available Formats*: SQL, CSV, JSON (automatically generated).
+*Available Formats*: SQL, CSV, JSON, XML, YML (automatically generated).
 
 ### 📦 License
 This dataset is distributed under the **CC BY 4.0** license — you are free to reuse, modify, and redistribute it, provided you credit BFTFED as the source.
