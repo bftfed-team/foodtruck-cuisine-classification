@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Foodtruck Cuisine Classification – BFTFED"
-message: "Please cite this project if you use this classification system."
+message: "Please cite this dataset if you use this classification system."
 type: dataset
 
 authors:
@@ -9,35 +9,45 @@ authors:
     affiliation: "Belgian Food Truck Federation (BFTFED)"
     email: "support@bftfed.be"
 
-  - family-names: "Belgian Food Truck Federation"
-    given-names: "BFTFED"
+  - name: "Belgian Food Truck Federation (BFTFED)"
     affiliation: "BelgianFoodTruckFederation.org"
     email: "support@bftfed.be"
 
 abstract: >
-  Multilingual (FR/NL/EN) open-data repository for classifying food trucks
+  Multilingual (FR/NL/EN) open-data dataset used to classify food trucks
   by cuisine type. Maintained by the Belgian Food Truck Federation (BFTFED)
-  and coordinated by Fabrice Willot. Includes 158 entries, keywords,
-  dietary tags, and multilingual taxonomy.
+  and coordinated by Fabrice Willot. Includes official taxonomy, keywords,
+  dietary tags, and multilingual labels.
 
 repository-code: "https://github.com/bftfed-team/foodtruck-cuisine-classification"
-url: "https://github.com/bftfed-team/foodtruck-cuisine-classification"
+url: "https://belgianfoodtruckfederation.org/fr/open-data/"
 
 license: "CC-BY-4.0"
 
 version: "1.0.0"
-date-released: "2025-12-01"
+date-released: "2025-11-30"
 
 keywords:
   - open-data
   - foodtruck
   - cuisine classification
   - taxonomy
-  - open data
   - multilingual
   - gastronomy
   - json
   - csv
   - sql
   - xml
-  - international
+  - yml
+  - belgium
+  - dataset
+
+preferred-citation:
+  type: dataset
+  title: "Foodtruck Cuisine Classification – BFTFED"
+  authors:
+    - family-names: "Willot"
+      given-names: "Fabrice"
+    - name: "Belgian Food Truck Federation (BFTFED)"
+  year: 2025
+  version: "1.0.0"
