@@ -1,58 +1,57 @@
-# Contributing to the Food-Truck Cuisine Classification (BFTFED)
+# Contributing to the Food-Truck Cuisine Classification Dataset
 
-Thank you for your interest in improving the official Food-Truck Cuisine Classification standard.
-
----
-
-## How to Contribute
-
-### 1. Contribution via GitHub (Recommended for Developers)
-
-#### Option A — Open an *Issue*
-This is recommended for quickly reporting an error, an inconsistency, or a missing entry.
-Please include:
-- The affected field(s) or concept(s)
-- The justification / context
-- The affected language(s) (FR or EN)
-- A source or concrete example, if possible
-
-#### Option B — Propose a *Pull Request*
-This is recommended for users who wish to submit the data changes directly.
-In this case:
-- Modify the main data file, such as `data/cooking_classification.csv`,
-- OR add a new file in the `contributions/` folder
-  Example: `contributions/proposal_2025-12-01_name.csv`
-- Clearly indicate the changes in the Pull Request description.
-
-### 2. Submission via Email
-For simple corrections or if you prefer a non-technical route, you can send your detailed proposal directly to:
-👉 **support[at]bftfed.be**
-
-You can propose:
-- Translation corrections (FR/EN)
-- New cuisine types
-- Addition of keywords
-- New sub-categories
-- Dietary tags (vegan, halal, gluten-free, etc.)
+Thank you for your interest in contributing!  
+This dataset is maintained by the **Belgian Food Truck Federation (BFTFed.)** and aims to standardize cuisine classification for food trucks in Belgium.
 
 ---
 
-## Best Practices
-- Use both languages (FR/EN) as much as possible in your proposals.
-- Respect existing categories and naming conventions.
-- Provide concrete examples if the concept is not widely known.
-- Avoid duplicates.
-- Specify if your proposal applies to countries other than Belgium (for context).
+## 🧩 Types of Contributions Accepted
+- New cuisine types  
+- Corrections to existing categories  
+- Improvements to translations (FR / NL / EN)  
+- Additional keywords  
+- Dietary tags (vegan, halal, gluten-free…)  
+- Structural improvements to the taxonomy  
 
 ---
 
-## Validation Process
-Submissions are evaluated through the following steps:
-1. Internal BFTFED committee review
-2. Linguistic validation
-3. Culinary verification
-4. Status update to `validated` in the reference table
+## 📝 How to Submit a Contribution
+
+### Option 1 — GitHub Pull Request
+1. Fork this repository  
+2. Create a branch for your modification  
+3. Update the dataset files (`.csv`, `.json`, `.yml`, etc.)  
+4. Update the `version` and `date_updated` fields  
+5. Submit a Pull Request  
+
+### Option 2 — GitHub Issue
+You can open an issue describing your proposal clearly.
+
+### Option 3 — Email
+Send your proposal to: **support@bftfed.be**
 
 ---
 
-Thank you for your contribution!
+## 🧭 What to Include in Your Proposal
+Please provide:
+- The **language(s)** concerned  
+- The **exact field(s)** to modify  
+- The **context** (e.g., widely used cuisine, regional relevance, diet tag, etc.)  
+- A justification explaining why the change improves the dataset  
+
+---
+
+## ✔️ Quality Guidelines
+- Use consistent formatting  
+- Respect the multilingual structure (FR, NL, EN)  
+- Favor neutrality and clarity in terminology  
+- Ensure keywords remain relevant and searchable  
+
+---
+
+## 📄 License Reminder
+By contributing, you agree that your addition will be published under the **CC BY 4.0** license, consistent with the rest of the dataset.
+
+---
+
+Thank you for helping improve the Belgian Food Truck ecosystem!
